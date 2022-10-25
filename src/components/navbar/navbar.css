@@ -1,0 +1,58 @@
+.nav {
+	display: inline;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	gap: 2 rem;
+	padding: 0 1 rem;
+	margin: 0;
+}
+
+.nav ul {
+	padding:  0;
+	list-style: none;
+	display: flex;
+	gap: 1rem;
+	margin-right: 50px;
+	margin-top: 20px;
+}
+
+.about-list, .project-list {
+
+	margin-top: 15px;
+	margin-right: 20px;
+}
+
+.nav a {
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+	height: 100%;
+	align-items: center;
+	padding: .25 rem;
+
+}
+
+.nav li.active {
+	background-color: white;
+}
+
+.nav li:hover {
+	background-color: #651DBA;
+
+}
+
+.landing {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+button {
+	background-color: #651DBA;
+	color: white;
+	border-radius: 10px; 
+	border: 1px solid #651DBA;
+	font-size: 16px;
+	padding: 14px 28px;
+}

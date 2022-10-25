@@ -1,0 +1,49 @@
+.aboutheadingone {
+	font-style: !important;
+	font-weight: 700;
+	font-size: 36px;
+	margin-left: 100px;
+	margin-top: 85px;
+	line-height: 44px;
+}
+
+.aboutheadingtwo {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	margin-left: 100px;
+}
+
+.aboutlist li {
+	margin-left: 150px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.aboutheadingthree {
+	margin-left: 100px;
+	margin-top: 50px;
+	font-style: !important;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 44px;
+}
+
+img {
+	margin-left: 120px;
+	border-radius: 50%;
+	border: 1px solid black;
+	max-width: 100%;
+}
+
+.myinterestlist li {
+	display: inline-block;
+	text-align: center;
+	margin-left: 150px;
+	margin-top: 50px;
+	font-style: italic;
+	
+}

@@ -1,0 +1,34 @@
+.projectsheadingone {
+	font-style: !important;
+	font-weight: 700;
+	font-size: 36px;
+	margin-left: 40px;
+	margin-bottom: 50px;
+	margin-top: 25px;
+	
+}
+
+.projectsheadingtwo {
+	font-style: italic;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.column {
+	float:  left;
+	width: 33.33%;
+	
+
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.projectone, .projecttwo, .projectthree h2 {
+	margin-left: 40px;
+	
+
+}
