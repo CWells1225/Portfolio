@@ -6,7 +6,7 @@ export default function Navbar() {
 
 		<nav className="nav">
 			
-		<Link to ="/" className="landing"> CW </Link>
+		<Link to ="/" className="landing"> C.W. </Link>
 			
 			<ul>
 				<li className="about-list">
