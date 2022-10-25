@@ -8,16 +8,9 @@
 	
 }
 
-.projectsheadingtwo {
-	font-style: italic;
-	font-weight: 700;
-	font-size: 24px;
-}
-
 .column {
 	float:  left;
-	width: 33.33%;
-	
+	width: 33.33%;	
 
 }
 
@@ -29,6 +22,9 @@
 
 .projectone, .projecttwo, .projectthree h2 {
 	margin-left: 40px;
-	
+	font-style: italic;
+	font-weight: 700;
+	font-size: 24px;
 
 }
+
