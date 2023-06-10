@@ -16,7 +16,7 @@ export default function Navbar() {
 					<CustomLink to="/projects"> Projects</CustomLink>
 				</li>
 				<li>
-					<CustomLink to="/resume"> 
+					<CustomLink to="https://docs.google.com/document/d/19-Zi_iQsjsaKgbTksAsDClWhnP14HL-SMqenz1EBeTE/edit?usp=sharing"> 
 					<button className="resume">Resume</button>
 					</CustomLink>
 				</li>
