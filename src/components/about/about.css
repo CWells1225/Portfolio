@@ -1,49 +1,58 @@
-.aboutheadingone {
-	font-style: !important;
-	font-weight: 700;
+.about_page {
+	padding: 30px;
+}
+
+.about_page .about_me_section h1 {
+	margin-bottom: 50px;	
+	font-family: 'Roboto Slab', serif;
 	font-size: 36px;
-	margin-left: 100px;
-	margin-top: 85px;
-	line-height: 44px;
 }
 
-.aboutheadingtwo {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 29px;
-	margin-left: 100px;
+.about_page .about_me_section h2 {
+	margin-bottom: 50px;	
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
 }
 
-.aboutlist li {
-	margin-left: 150px;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 29px;
+.about_page .about_me_section .about_list li {
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: disc;
 }
 
-.aboutheadingthree {
-	margin-left: 100px;
+.about_page .interests_wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.about_page .interests_wrapper h2 {
 	margin-top: 50px;
-	font-style: !important;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 44px;
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
 }
 
-img {
-	margin-left: 120px;
-	border-radius: 50%;
-	border: 1px solid black;
-	max-width: 100%;
+.about_page .interests_wrapper .about_card {
+	display: flex;
 }
 
-.myinterestlist li {
-	display: inline-block;
-	text-align: center;
-	margin-left: 150px;
-	margin-top: 50px;
-	font-style: italic;
-	
+.about_page .interests_wrapper .about_card .interest_content_wrapper, 
+.about_page .interests_wrapper .about_card .interest_images_wrapper {
+	width:50%;
+}
+
+
+.about_page .interests_wrapper .about_card .interest_content_wrapper h3 {
+	margin-bottom: 50px;
+	font-family: 'Allura', cursive;
+	font-size: 20px;
+}
+
+.about_page .interests_wrapper .about_card .interest_content_wrapper p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	width:50%;
+}
+
+.about_page .interests_wrapper .about_card .interest_images_wrapper img {
+	width: 50%;
 }

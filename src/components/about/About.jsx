@@ -1,52 +1,79 @@
-import "./about.css"
+import "./about.css";
+import Delta from "../../asset/images/delta.jpg"; 
+import LAFitness from "../../asset/images/lafitness.jpg"; 
+import Music from "../../asset/images/apple-music-logo.jpg"; 
+import Pinterest from "../../asset/images/Pinterest-Logo.png"; 
+import Sports from "../../asset/images/TNT_APP.png"; 
 
 export default function About() {
 	return (
 
-		<div className='about'>
-			<div>
-				<h1 className="aboutheadingone"> About Me </h1>
+		<div className="about_page">
+			<div className="about_me_section">
+			<h1 className="about_heading_one"> About Me </h1>
+			<h2 className="about_heading_two"> Leveraging a background in healthcare and telecommunications, I am a born creative with enthusiasm for pushing design and working in innovative spaces. </h2> 
 
-				<section>
-
-				<h2 className="aboutheadingtwo"> Leveraging a background in healthcare and telecommunications, I am a born creative with enthusiasm for pushing design and working in innovative spaces. </h2> 
-
-				<ul className="aboutlist">
+				<ul className="about_list">
 					<li> Born & raised in ATL </li>
 					<li> Family-oriented </li>
-					<li> BS in Biology &lt; Drawing Fashion </li>
+					<li> BS in Biology &#60; Drawing & Fashion </li>
 					<li> Travel enthusiast </li>
 					<li> Health & Fitness enthusiast </li>
 				</ul>
+			</div>
 
-				</section>
+			<div className="interests_wrapper">
+			<h2> My Interests </h2>
+				<div className="about_card">
+					<div className="interest_content_wrapper">
+					<h3> Art & Fashion </h3>
+						<p> I've loved art since I was a child. I rememeber I used to draw every and anything. Pinterest is one of my favorite applications to search artwork and fashion to get ideas and inspiration. </p>
+					</div>
+					<div className="interest_images_wrapper">
+						<img src={Pinterest} alt="ImageofPinterestLogo"/>	</div>
+				</div>		
 
-				<section>
-				<h3 className="aboutheadingthree"> My Interests </h3>
+				<div className="about_card">
+					<div className="interest_content_wrapper">
+					<h3> Music </h3>
+						<p> I love music. I'm almost always listening to music. I love listening to music on Apple music. I have multiple playlists for different activities. </p>
+					</div>
+					<div className="interest_images_wrapper">
+						<img src={Music} alt="ImageofAppleLogo" />	</div>
+				</div>		
 
-				<div className="images">
+				<div className="about_card">
+					<div className="interest_content_wrapper">
+					<h3> Travel </h3>
+						<p> I am a travel enthusiast. I enjoy traveling with my family and friends. I enjoy learning different cultures and trying new food. I love traveling with Delta. </p>
+					</div>
+					<div className="interest_images_wrapper">
+						<img src={Delta} alt="ImageofDeltaLogo" />	
+					</div>
+				</div>	
 
-				<img src="https://fontmeme.com/images/Delta-Logo.jpg" alt="delta logo" height="100" width="100" />
-				<img src="https://blogger.googleusercontent.com/img/a/AVvXsEgu9Ewbgh4ej2z3gB_cQ8Ajf3Vvh2qzNvxMYBOkC70IdBK5Xt3drFjDz1j67Q3rhhBrx9WaASxDhdlzLGMETxTsoGFE9i4aBOJQq-I1Jn9DWREVc4-7fEJepgcWsFl4hRv-TPIsewP9rmMcjEEFB3THpj1w8wb5HqcOyl0s7e0dXEOrb34pxuVaxkP-OQ=s600" alt="adidas logo" height="100" width="100" />
-				<img src="https://static-prod.adweek.com/wp-content/uploads/2021/04/Pinterest-Logo.png" alt="pinterest logo" height="100" width="100" />
-				<img src="https://compass-ssl.xboxlive.com/assets/ab/a4/aba4ae4a-a086-4887-b6ce-53341380c373.jpg?n=MSXC-NBATitle-HeroAndImageCard-large-l-794x447-16x9-01.jpg" alt="NBA2K logo" height="100" width="100" />
-				<img src="https://yt3.ggpht.com/ytc/AMLnZu9PQkBTdv5DIW1ttawwQ-misqyldtjLuq7EXwBX3w=s900-c-k-c0x00ffffff-no-rj" alt="LA Fitness Logo" height="100" width="100" />
-				<img src="https://images.macrumors.com/t/RsRxUqFqB0mh-vSOEnl0I22oIhg=/1200x1200/smart/article-new/2020/12/apple-music-logo.jpg" alt="apple musiclogo" height="100" width="100" />
+				<div className="about_card">
+					<div className="interest_content_wrapper">
+					<h3> Sports </h3>
+						<p> I love sports, especially basketball. I just play for fun now but I enjoy watching sports and keeping up with updates with different apps like <br/> ESPN, TNT, or NBA. </p>
+					</div>
+					<div className="interest_images_wrapper">
+						<img src={Sports} alt="ImageofTNTLogo" />	
+					</div>
+				</div>		
+			
 
-				</div>
-
-				<ul className="myinterestlist">
-					<li> Art </li>
-					<li> Fashion </li>
-					<li> Music </li>
-					<li> Travel </li>
-					<li> Sports </li>
-					<li> Health & Fitness </li>
-				</ul>
-
-				</section>
+				<div className="about_card">
+					<div className="interest_content_wrapper">
+					<h3> Health & Fitness </h3>
+						<p> I've always been active. The older I get the more I value my health. I enjoy balancing eating healthy and still being able to eat sweets here and there. Also, making sure I stay active. I love working out at LA Fitness. </p>
+					</div>
+					<div className="interest_images_wrapper">
+						<img src={LAFitness} alt="ImageofLAFitnessLogo" />	</div>
+				</div>		
+			
 
 			</div>
 		</div>
-		);
+	);
 }

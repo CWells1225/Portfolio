@@ -1,26 +1,25 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import "./navbar.css"
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import "./navbar.css";
 
 export default function Navbar() {
 	return (
-
 		<nav className="nav">
 			
-		<Link to ="/" className="landing"> C.W. </Link>
+			<Link to ="/" className="landing"> C . W . </Link>
 			
-			<ul>
-				<li className="about-list">
+				<ul>
+					<li className="about-list">
 					<CustomLink to="/about"> About</CustomLink>
-				</li>
-				<li className="project-list">
+					</li>
+					<li className="project-list">
 					<CustomLink to="/projects"> Projects</CustomLink>
-				</li>
-				<li>
-					<CustomLink to="https://docs.google.com/document/d/19-Zi_iQsjsaKgbTksAsDClWhnP14HL-SMqenz1EBeTE/edit?usp=sharing"> 
-					<button className="resume">Resume</button>
+					</li>
+					<li>
+					<CustomLink to="https://docs.google.com/document/d/19-Zi_iQsjsaKgbTksAsDClWhnP14HL-SMqenz1EBeTE/edit?usp=sharing" target="_blank" rel="noopener noreferrer"> 
+						<button className="resume">Resume</button>
 					</CustomLink>
-				</li>
-			</ul>
+					</li>
+				</ul>
 		</nav>
 		);
 }

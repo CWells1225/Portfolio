@@ -1,23 +1,23 @@
-import { Link, useMatch, useResolvedPath } from "react-router-dom"
-import "./landingpage.css"
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
+import "./landingpage.css";
 
 export default function Landingpage() {
 	return (
 
-		<div className='landingpage'>
+		<div className='landing_page'>
 			<div>
 				<h1> HI, I AM CHRISTINA WELLS ! </h1>
 				<h2> Full Stack Developer. Creative. Innovator. </h2>
 				<h3> Leveraging a background in healthcare and telecommunications, I am a born creative with enthusiasm for pushing design and working in innovative spaces. </h3>
 			</div>
 
-			<div className='projectbutton'>
+			<div className='project_button'>
 				<CustomLink to="/projects"> 
 					<button> CHECK OUT MY WORK </button>
 				</CustomLink>
 			</div>
 
-			<div className='aboutbutton'>
+			<div className='about_button'>
 				<CustomLink to="/about"> 
 					<button> GET TO KNOW ME </button>
 				</CustomLink>

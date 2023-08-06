@@ -1,30 +1,63 @@
-.projectsheadingone {
-	font-style: !important;
-	font-weight: 700;
-	font-size: 36px;
-	margin-left: 40px;
+.projects_page {
+	padding: 30px;
+}
+
+.projects_page h1 {
 	margin-bottom: 50px;
-	margin-top: 25px;
-	
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;	
 }
 
-.column {
-	float:  left;
-	width: 33.33%;	
-
+.projects_page .wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
 }
 
-.row:after {
-	content: "";
-	display: table;
-	clear: both;
+.projects_page .wrapper .project_card {
+	display: flex;	
 }
 
-.projectone, .projecttwo, .projectthree h2 {
-	margin-left: 40px;
-	font-style: italic;
-	font-weight: 700;
-	font-size: 24px;
-
+.projects_page .wrapper .project_card .content_wrapper h2 {
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 50px;
 }
 
+.projects_page .wrapper .project_card .content_wrapper p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.projects_page .wrapper .project_card .image_wrapper img {
+	width: 100%;
+}
+
+.projects_page .wrapper .project_card .image_wrapper, 
+.projects_page .wrapper .project_card .content_wrapper {
+	width: 50%;
+}
+
+@media (max-width: 765px) {
+	.projects_page h1 {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+
+	.projects_page .wrapper .project_card .content_wrapper h2 {
+		margin-bottom: 10px;
+		font-family: 'Playfair Display', serif;
+		font-size: 20px;
+	}
+
+	.projects_page .wrapper .project_card {
+		flex-direction: column;	
+	}
+
+	.projects_page .wrapper .project_card .content_wrapper {
+		margin-bottom: 30px;
+	}
+
+	.projects_page .wrapper .project_card .image_wrapper, 
+	.projects_page .wrapper .project_card .content_wrapper {
+		width: 100%;
+	}
+}
