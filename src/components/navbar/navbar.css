@@ -60,9 +60,3 @@
 	font-size: 16px;
 	padding: 14px 28px;
 }
-
-@media (max-width: 772px) {
-	.nav ul {
-		display: block;
-	} 	
-}
