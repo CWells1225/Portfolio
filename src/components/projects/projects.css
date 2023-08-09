@@ -18,6 +18,11 @@
 	display: flex;	
 }
 
+.projects_page .wrapper .project_card .image_wrapper, 
+.projects_page .wrapper .project_card .content_wrapper {
+	width: 50%;
+}
+
 .projects_page .wrapper .project_card .content_wrapper h2 {
 	font-family: 'Playfair Display', serif;
 	margin-bottom: 50px;
@@ -31,12 +36,7 @@
 	width: 100%;
 }
 
-.projects_page .wrapper .project_card .image_wrapper, 
-.projects_page .wrapper .project_card .content_wrapper {
-	width: 50%;
-}
-
-@media (max-width: 765px) {
+@media (max-width: 772px) {
 	.projects_page h1 {
 		font-size: 30px;
 		margin-bottom: 20px;
