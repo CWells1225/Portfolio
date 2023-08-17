@@ -8,10 +8,10 @@ export default function Navbar() {
 			<Link to ="/" className="landing"> C . W . </Link>
 			
 				<ul>
-					<li className="about-list">
+					<li className="about_list">
 					<CustomLink to="/about"> About</CustomLink>
 					</li>
-					<li className="project-list">
+					<li className="project_list">
 					<CustomLink to="/projects"> Projects</CustomLink>
 					</li>
 					<li>

@@ -15,6 +15,7 @@ export default function Projects() {
 					  	<p> Application </p>
 					  	<p> User Responsiveness. CSS Media Queries. Figma. </p>
 					  	<p> HTML. CSS. Javascript. ReactJS. </p>
+					  	<a href="https://pearllumi1.onrender.com/" target="_blank" rel="noopener noreferrer"> view </a>
 					</div>
 
 					<div className="image_wrapper">
